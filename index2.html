@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Arion | Nitte Racing</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        racing: ['"Racing Sans One"', 'cursive'],
+                    },
+                }
+            }
+        }
+    </script>
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    
+    <!-- Vanta.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JS -->
+<script src="script.js" defer></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-black bg-opacity-90 text-white">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="font-racing text-2xl text-red-600">TEAM ARION</span>
+            </div>
+<div class="hidden md:flex space-x-8">
+                <a href="#home" class="hover:text-red-500 transition">Home</a>
+                <a href="#about" class="hover:text-red-500 transition">About</a>
+                <a href="#team" class="hover:text-red-500 transition">Team</a>
+                <a href="#sponsors" class="hover:text-red-500 transition">Sponsors</a>
+                <a href="#contact" class="hover:text-red-500 transition">Contact</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-red-500 transition"><i data-feather="instagram"></i></a>
+                <a href="#" class="hover:text-red-500 transition"><i data-feather="facebook"></i></a>
+                <a href="#" class="hover:text-red-500 transition"><i data-feather="twitter"></i></a>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section id="home" class="hero-bg min-h-screen flex items-center justify-center relative overflow-hidden bg-gray-900">
+        <div id="vanta-bg" class="absolute inset-0"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center">
+<h1 class="font-racing text-5xl md:text-7xl font-bold text-white mb-6">
+ENGINEERING <span class="text-red-600">EXCELLENCE</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
+                Pushing the limits of innovation at SUPRA SAEINDIA
+            </p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
+                <a href="#about" class="px-8 py-3 bg-red-600 text-white rounded-full font-bold hover:bg-red-700 transition">
+                    OUR STORY
+                </a>
+                <a href="#contact" class="px-8 py-3 border-2 border-white text-white rounded-full font-bold hover:bg-white hover:text-black transition">
+                    JOIN US
+                </a>
+            </div>
+            <div class="mt-20">
+                <img src='car2.png' alt="Team Arion Kart" 
+                     class="kart-animation mx-auto w-full max-w-2xl rounded-lg shadow-2xl">
+</div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="py-20 bg-gray-100">
+<div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-racing text-4xl font-bold text-gray-800 mb-4">
+ABOUT <span class="text-red-600">TEAM ARION</span>
+                </h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="ab.png" alt="Team Working" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Mission</h3>
+                    <p class="text-gray-600 mb-6">
+                        Team Arion represents the pinnacle of student engineering at Nitte Institute of Technology. 
+                        We design, build, and race high-performance vehicles that embody innovation, precision, 
+                        and the relentless pursuit of speed.
+                    </p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Our Achievements</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <i data-feather="award" class="text-red-600 mr-2 mt-1"></i>
+                            <span>3-time participants in SUPRA SAEINDIA</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="award" class="text-red-600 mr-2 mt-1"></i>
+                            <span>Top 20 finish in 2022 competition</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="award" class="text-red-600 mr-2 mt-1"></i>
+                            <span>Innovation award for suspension design</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team-->
+    <section id="team" class="py-20 bg-white">
+<div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-racing text-4xl font-bold text-gray-800 mb-4">
+MEET THE <span class="text-red-600">TEAM</span>
+                </h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="team-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="group.jpg" alt="Team Member" class="w-full h-64 object-cover">
+<div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Unknown</h3>
+                        <p class="text-red-600 mb-2">Team Captain</p>
+<p class="text-gray-600">
+                            
+                        </p>
+                    </div>
+                </div>
+              
+                <div class="team-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="group.jpg" alt="Team Member" class="w-full h-64 object-cover">
+<div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Unknown</h3>
+                        <p class="text-red-600 mb-2">Electronics Lead</p>
+<p class="text-gray-600">
+                           
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="team-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <img src="group.jpg" alt="Team Member" class="w-full h-64 object-cover">
+<div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Unknown</h3>
+                        <p class="text-red-600 mb-2">Powertrain Engineer</p>
+<p class="text-gray-600">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sponsors -->
+    <section id="sponsors" class="py-20 bg-gray-100">
+<div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-racing text-4xl font-bold text-gray-800 mb-4">
+OUR <span class="text-red-600">SPONSORS</span>
+                </h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto mt-4">
+                    We're grateful for the support of these industry leaders who help make our racing dreams a reality.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
+                <div class="flex justify-center">
+                    <img src="Altair.png" alt="Sponsor" class="sponsor-logo h-20">
+                </div>
+                <div class="flex justify-center">
+                    <img src="asap.png" alt="Sponsor" class="sponsor-logo h-20">
+                </div>
+                <div class="flex justify-center">
+                    <img src="Exedy.png" alt="Sponsor" class="sponsor-logo h-20">
+                </div>
+                <div class="flex justify-center">
+                    <img src="Motul.png" alt="Sponsor" class="sponsor-logo h-20">
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#contact" class="px-8 py-3 bg-black text-white rounded-full font-bold hover:bg-gray-800 transition inline-block">
+                    BECOME A SPONSOR
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-racing text-4xl font-bold text-white mb-4">
+GET IN <span class="text-red-600">TOUCH</span>
+                </h2>
+                <div class="w-20 h-1 bg-red-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">Contact Information</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <i data-feather="mail" class="text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <p class="font-bold">Email</p>
+                                <p>team.arion@nitte.edu.in</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="map-pin" class="text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <p class="font-bold">Location</p>
+                                <p>Nitte Institute of Technology, Bengaluru, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <i data-feather="users" class="text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <p class="font-bold">Join the Team</p>
+                                <p>We're always looking for passionate engineers and designers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-bold mb-4">Follow Us</h3>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram" class="w-6 h-6">
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="w-6 h-6">
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png" alt="Twitter" class="w-6 h-6">
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-red-600 transition">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2048px-WhatsApp.svg.png" alt="WhatsApp" class="w-6 h-6">
+                            </a>
+</div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h3 class="text-2xl font-bold mb-4">Send Us a Message</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block mb-1">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-red-600">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-1">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-red-600">
+                        </div>
+                        <div>
+                            <label for="subject" class="block mb-1">Subject</label>
+                            <select id="subject" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-red-600">
+                                <option>General Inquiry</option>
+                                <option>Sponsorship</option>
+                                <option>Join the Team</option>
+                                <option>Technical Question</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-1">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-red-600"></textarea>
+                        </div>
+                        <button type="submit" class="px-8 py-3 bg-red-600 text-white rounded-full font-bold hover:bg-red-700 transition">
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="font-racing text-2xl text-red-600">TEAM ARION</span>
+<p class="text-gray-400 mt-2">Nitte Institute of Technology</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">Home</a>
+                    <a href="#about" class="text-gray-400 hover:text-white transition">About</a>
+                    <a href="#team" class="text-gray-400 hover:text-white transition">Team</a>
+                    <a href="#sponsors" class="text-gray-400 hover:text-white transition">Sponsors</a>
+                    <a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; copyright 2025 Team Arion. All rights reserved.</p>
+</body>
+</html>
