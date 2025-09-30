@@ -63,6 +63,8 @@ what is planned to be added:
 3.add a working hamburger section 
 4.make sending message fully operational
 5.add more team cards with more details 
+6.add all sponsor cards in
+
 
 
 
