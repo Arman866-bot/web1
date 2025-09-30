@@ -61,6 +61,9 @@ what is planned to be added:
 1.add full functionality team and social media section 
 2.add 3d workind elements to the webpage
 3.add a working hamburger section 
+4.make sending message fully operational
+5.add more team cards with more details 
+
 
 
 
