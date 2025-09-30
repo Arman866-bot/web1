@@ -1,8 +1,7 @@
-# arman web2
-🚀 Live Preview
-Visit the site — (Add your deployed link here)
+# web1
 
-📦 Tech Stack
+
+ Tech Stack
 HTML5
 • Used for the semantic structure of the site
 Tailwind CSS
@@ -19,9 +18,8 @@ Google Fonts
 • Enhances branding and readability
 JavaScript
 • Handles interactive behavior and animations
-• Includes external libraries and a local script.js
 
-Spomsors
+Sponsors
 Altair
 • Logo file: Altair.png
 • Known for engineering simulation and design software
@@ -35,18 +33,18 @@ Motul
 • Logo file: Motul.png
 • Global leader in automotive lubricants and fluids
 
-📬 Contact & Footer
-📞 Get in Touch
+ Contact & Footer
+ Get in Touch
 - Email: team.arion@nitte.edu.in
 - Location: Nitte Institute of Technology, Bengaluru, Karnataka
 - Recruitment: Open call for passionate engineers and designers
-📱 Social Media
+ Social Media
 Instagram, Facebook, Twitter, WhatsApp — all integrated with hover effects and clean icons.
-📝 Contact Form
+ Contact Form
 - Fields: Name, Email, Subject, Message
 - Dropdown for inquiry type: General, Sponsorship, Join the Team, Technical
 - Submit button with hover animation
-🧭 Footer Navigation
+ Footer Navigation
 Quick links to all major sections and a branded copyright:
 
 
@@ -56,7 +54,7 @@ What works :
 3.team section can be made clickable and redierect to another page where a brief info of every team member is present 
 4.sponsors section: become a sponsor button works leads to send a message as a sponsor 
 5.contact section: provides a section to reach out to the team regarding different queries 
-soical media sections are given which can be linked to teh team's social media accounts further mail id , location of the college and wherer the team is established is provided
+soical media sections are given which can be linked to teh team's social media accounts further mail id , location of the college and where the team is established is provided
 
 
 what is planned to be added:
