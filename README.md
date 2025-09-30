@@ -59,7 +59,7 @@ soical media sections are given which can be linked to teh team's social media a
 
 what is planned to be added:
 1.add full functionality team and social media section 
-2.add 3ed workind elements to the webpage
+2.add 3d workind elements to the webpage
 3.add a working hamburger section 
 
 
